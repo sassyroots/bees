@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Poppins:ital,wght@0,400;1,100&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* type */
+h1 {
+  @apply text-4xl lg:text-5xl font-head leading-10;
+}
+h2 {
+  @apply text-3xl lg:text-4xl font-head leading-9;
+}
+h2 {
+  @apply text-2xl lg:text-3xl font-head leading-8;
+}
+h3 {
+  @apply text-xl lg:text-2xl font-body leading-6;
+}
+
+h4 {
+  @apply lg:text-xl font-body font-semibold;
+}
+
+body {
+  @apply font-body leading-5 text-zinc-700;
+}
+
+a {
+  @apply underline decoration-dotted underline-offset-2 decoration-prime-200 text-prime-200;
+}
+a:hover {
+  @apply underline decoration-dotted underline-offset-2 decoration-prime-100 text-prime-100;
+}
+p {
+  @apply mb-4;
+}
+
+.btn {
+  @apply bg-prime-300 text-white rounded-md px-8 py-2 m-0;
+}
+.btn:hover {
+  @apply bg-prime-100;
+}
+.container {
+  @apply px-5 md:px-10 lg:px-20;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+/* header */
+.head {
+  @apply bg-prime-300 p-0 m-0;
+}
+.head-container {
+  @apply px-20 md:flex md:justify-between md:items-center py-10 md:py-0;
+}
+.topnav a {
+  text-decoration: none;
+  @apply text-white font-head text-2xl hover:text-prime-200;
+}
+
+.topnav a:nth-child(n+3):before {
+  content: " | ";
+} 
+
+/* footer */
+.foot {
+  @apply mt-6 bg-prime-300 p-0 m-0;
+}
+.foot-container {
+  @apply px-20 py-2 md:grid md:grid-cols-2 md:gap-4;
+}
+.nav-sm {
+  border-bottom: 2px solid white;
+  margin-bottom: 10px;
+  @apply md:hidden;
+}
+.nav-md {
+  @apply sm:hidden md:block;
+}
+.foot-logo {
+  max-width: 8rem;
+  height: auto;
+}
+.foot-nav a {
+  @apply text-white decoration-white hover:text-prime-200 hover:decoration-prime-200;
+}
+.foot-nav li {
+  @apply py-2;
+}
+.foot-copy {
+  @apply text-white max-w-prose;
+}
+.notice {
+  @apply text-xs;
+}
+
+/* heros */
+.home-hero {
+  @apply relative;
+}
+.home-hero h1 {
+  @apply text-white absolute top-4 lg:top-10 lg:left-20 p-4 bg-zinc-800/75 text-2xl lg:text-5xl;
+}
+
+.home-hero img {
+  @apply w-full h-32 sm:h-48 object-cover
+}
+
+/* card pattern */
+.card-group {
+  @apply mt-6 grid grid-cols-3 gap-2;
+}
+.card {
+  @apply bg-white rounded overflow-hidden shadow-md relative;
+}
+.card img {
+  @apply w-full h-32 sm:h-48 object-cover;
+}
+.card div {
+  @apply m-4;
+}
+
+.card h3 {
+  @apply mb-2;
+}
+
+.badge {
+  @apply rounded-lg bg-yellow-100 absolute p-2 top-0;
+}
+.full-click {
+  @apply border-solid border-2 border-teal-200;
+}
+
+.full-click a {
+  @apply text-black no-underline;
+}
+
+.home-shop {
+  @apply bg-slate-300 p-8;
+}
+
+
+/* prod page */
+.product {
+  @apply md:grid md:grid-cols-2 md:gap-5 md:items-center;
+}
+
+
+/* snip cart theme */
+#snipcart {
+  /* ----------------- 
+      Colors
+  ----------------- */
+  --color-buttonPrimary: #22426B;
+  --borderColor-buttonPrimary: #22426B;
+  --bgColor-buttonPrimary: #22426B;
+  /* Hover */
+  --color-buttonPrimary-hover: #fff;
+  --borderColor-buttonPrimary-hover: #4B76AC;
+  --bgColor-buttonPrimary-hover: #4B76AC;
+  --shadow-buttonPrimary-hover: #ACCBE5;
+}
