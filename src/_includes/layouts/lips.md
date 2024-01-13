@@ -11,7 +11,7 @@ layout: layouts/product
   data-item-id="{{ sku }}"
   data-item-price="{{ prod.lipbalm.price | plus: upprice }}"
   data-item-weight="{{ prod.lipbalm.weight }}"
-  data-item-url="http://localhost:8080{{ url }}"
+  data-item-url="http://sassyroot.netlify.app{{ url }}"
   data-item-description="{{ short }}"
   data-item-image="/img/prod/{{ img.thumb }}"
   data-item-name="{{ title }}"
