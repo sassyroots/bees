@@ -1,6 +1,8 @@
 nav:
   - title: home
     href: /
+  - title: shop
+    href: /shop
   - title: articles
     href: /
     state: draft
@@ -12,8 +14,6 @@ nav:
     state: draft
   - title: consultations
     href: /consultations
-  - title: shop
-    href: /shop
   - title: about sassy roots
     href: /about
 
