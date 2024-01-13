@@ -2,12 +2,16 @@
 layout: layouts/base
 ---
 
-# {{ title }}
-- hero here
+# {{ title }}{: .container .my-6 }
+
 
 <div class="container grid grid-cols-4 gap-1">
   <div class="left-nav">
-  category nav here
+    <ul>
+      {% for sn in collections.prod-landing %}
+      <li><a href="{{ sn.url }}">{{ sn.data.title}}</a></li>
+      {% endfor %}
+    </ul>
   </div>
   <div class="col-span-3">
   {{ content }}
