@@ -44,9 +44,8 @@ card:
 </div>
 
 
-<div class="container grid grid-cols-2 gap-4">
-
-  <div class="col-span-1">
+<div class="container md:grid md:grid-cols-2 md:gap-4">
+  <div>
 
   ## Launched finally
   After over a decade of learning, it's time for me to finally share what I know with the world. This site is the hub space for my herbal practice served as a magazine style website with each issue being dedicated to a herb with stories, recipes, remedies, tutorials, and podcast. Most importantly, community building and education through our local meetups and our online community. 
@@ -55,12 +54,12 @@ card:
 
   {% meetup %} | {% discord %}
   </div>
-  <div style="padding:50px;">
+  <div class="md:border-l-2 md:p-10">
 
   ### Excuse the mess / Changelog
   This site is still under construction and far from the brand experience I plan to build.
 
-  However... I know have full cart functionality allowing you to order products directly from the site... **YAY!** ... with both shipping options and local pick up. 
+  However...with version beta.2.. I now have full cart functionality allowing you to order products directly from the site... **YAY!** ... with both shipping options and local pick up. 
   </div>
 </div>
 

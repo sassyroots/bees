@@ -7,7 +7,7 @@ layout: layouts/product
 {% endif %}
 
 ## ${{ prod.lipbalm.price | plus: upprice }}
-<button class="snipcart-add-item"
+<button class="btn snipcart-add-item"
   data-item-id="{{ sku }}"
   data-item-price="{{ prod.lipbalm.price | plus: upprice }}"
   data-item-weight="{{ prod.lipbalm.weight }}"
@@ -19,5 +19,5 @@ layout: layouts/product
   data-item-custom1-options="{{ prod.lipbalm.vars }}"
   data-item-custom2-name="Size"
   data-item-custom2-options="{{ prod.lipbalm.pricing }}">
-  Add to cart
+  <i class="fa-duotone fa-cart-plus"></i> Add to cart
 </button>

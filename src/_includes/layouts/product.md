@@ -28,7 +28,12 @@ layout: layouts/base
 {% endif %}
 
 
+</div>
+
+<div class="bg-gray-300">
+<div class="container mt-20 py-10">
+
 ## You may also like
 {% include "patterns/shop-3up.md" %}
-
+</div>
 </div>

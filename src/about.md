@@ -2,7 +2,7 @@
 layout: layouts/base
 title: About Sassy Roots Apothecary
 ---
-<div class="content-container">
+<div class="container mt-8">
 
 # {{ title }}
 

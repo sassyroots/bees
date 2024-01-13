@@ -2,7 +2,7 @@
 layout: layouts/base
 title: Consultation
 ---
-<div class="content-container"> 
+<div class="container mt-8"> 
 
 # {{ title }}
 
