@@ -7,7 +7,7 @@ short: This all natural lip balm is just the thing to smooth and moisturize dry 
 
 category: skincare
 upprice: 0
-url: "/shop/skincare/lusciouslips"
+url: "lusciouslips"
 tags: 
   - product
   - lipbalm

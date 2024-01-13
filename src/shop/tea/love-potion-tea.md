@@ -8,7 +8,7 @@ short: this tea will both open the heart and get the love juices flowing
 category: "sassy by the day"
 dosage: 2 teaspoons to a cup of hot water -- let infuse for at least 10 minutes before drinking.
 upprice: 0
-url: "/shop/tea/love-potion"
+url: "love-potion"
 tags: 
   - product
   - tea

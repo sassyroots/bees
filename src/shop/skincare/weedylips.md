@@ -7,7 +7,7 @@ short: This all-natural lip balm is just the thing to smooth and moisturize dry 
 
 category: "weedy relief"
 upprice: 2
-url: "/shop/skincare/weedylips"
+url: "weedylips"
 tags: 
   - product
   - lipbalm

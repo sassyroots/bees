@@ -11,7 +11,7 @@ layout: layouts/product
   data-item-id="{{ sku }}"
   data-item-price="{{ prod.tea.price | plus: upprice }}"
   data-item-weight="{{ prod.tea.weight }}"
-  data-item-url="{{ url }}"
+  data-item-url="{{ settings.site_url }}{{ prod.tea.url}}{{ url }}"
   data-item-description="{{ short }}"
   data-item-image="/img/prod/{{ img.thumb }}"
   data-item-name="{{ title }}"

@@ -1,10 +1,12 @@
 tea:
+  url: shop/tea/
   price: 10
   weight: "114"
   size: small
   vars: "small|medium[+3]|large[+6]"
 
 lipbalm:
+  url: shop/skincare/
   price: 8
   weight: "10.58"
   ingredients:
@@ -15,6 +17,7 @@ lipbalm:
   pricing: "small | large[+2]"
 
 lotion:
+  url: shop/skincare/
   price: 15
   weight: 216.93
   ingredients:
@@ -24,6 +27,7 @@ lotion:
     - natural perservatives
 
 tinctures:
+  url: shop/tinctures/
   price: 12
   ingredients: 
     - alcohol
