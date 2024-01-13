@@ -2,7 +2,7 @@
 layout: layouts/base
 ---
 
-<article class="container product" markdown="1">
+<article class="container product mt-6" markdown="1">
 
 ![{{ img.alt }}](/assets/img/shop/{{ img.photo[0] }})
 
