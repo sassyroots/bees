@@ -10,9 +10,9 @@ dosage: 2 teaspoons to a cup of hot water -- let infuse for at least 10 minutes 
 upprice: 0
 url: "love-potion"
 tags: 
-  - product
+  #- product
   - tea
-  - featured
+  #- featured
   - love
   - sassy by the day
 herbs:

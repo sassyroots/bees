@@ -2,8 +2,6 @@ tea:
   url: shop/tea/
   price: 10
   weight: "114"
-  size: small
-  vars: "small|medium[+3]|large[+6]"
 
 lipbalm:
   url: shop/skincare/
@@ -14,7 +12,6 @@ lipbalm:
     - jojoba oil
     - beeswax
   vars: "unflavored | spearmint | peppermint | tea tree | orange | grapefruit"
-  pricing: "small | large[+2]"
 
 lotion:
   url: shop/skincare/
@@ -28,9 +25,13 @@ lotion:
 
 tinctures:
   url: shop/tinctures/
-  price: 12
+  price: 15
   ingredients: 
     - alcohol
-  vars: "1 oz | 2oz | 4oz | 8oz"
 
-
+notebooks:
+  url: shop/notebooks
+  price: 15
+notebooks-downloads:
+  url: shop/notebooks
+  price: 10

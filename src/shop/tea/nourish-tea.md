@@ -7,9 +7,9 @@ category: "sassy by the day"
 upprice: 0
 url: "nourish"
 tags: 
-  - product
+  #- product
   - tea
-  - featured
+  #- featured
   - sassy by the day
 
 herbs:

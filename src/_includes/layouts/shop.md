@@ -9,7 +9,8 @@ layout: layouts/base
   <div class="left-nav">
     <ul>
       {% for sn in collections.prod-landing %}
-      <li><a href="{{ sn.url }}">{{ sn.data.title}}</a></li>
+      <li><a href="{{ sn.url }}"
+      {% if page.url == sn.url %} class="text-fuchsia-500" {% endif %}>{{ sn.data.title}}</a></li>
       {% endfor %}
     </ul>
   </div>

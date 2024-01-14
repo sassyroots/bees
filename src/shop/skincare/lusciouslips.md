@@ -1,11 +1,11 @@
 ---
 layout: layouts/lips
 title: Luscious Lips Balm
-badge: "Special"
-sku: luscious-lips
+#badge: "Special"
+sku: luscious-lotion
 short: This all natural lip balm is just the thing to smooth and moisturize dry lips. Perfect for those with dry or sensitive skin.
 
-category: skincare
+category: luscious
 upprice: 0
 url: "lusciouslips"
 tags: 

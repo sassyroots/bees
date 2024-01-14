@@ -1,11 +1,11 @@
 ---
 layout: layouts/lips
 title: Weedy Relief Lip Balm
-badge: "Special"
+#badge: "Special"
 sku: relief-lips
 short: This all-natural lip balm is just the thing to smooth and moisturize dry lips. This balm is specially formulated for those with extra dry, or cracked, or who suffer from rashes on the lips.
 
-category: "weedy relief"
+category: "weedy-relief"
 upprice: 2
 url: "weedylips"
 tags: 
@@ -13,6 +13,7 @@ tags:
   - lipbalm
   - featured
   - skincare
+  - weedy-relief
 herbs:
   - chickweed
   - plantain
