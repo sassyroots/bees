@@ -23,14 +23,12 @@ img:
 
 43783dda-fb3f-4106-b63a-d861c6936e87
 
-<button class="btn snipcart-add-item"
-  data-item-id="{{ sku }}"
-  data-item-price="10"
-  data-item-weight="2"
-  data-item-url="{{ settings.site_url }}notebooks/blanklined/{{ url }}"
-  data-item-description="{{ short }}"
-  data-item-image="/img/prod/{{ img.thumb }}"
-  data-item-name="{{ title }}"
+<button class=" btn snipcart-add-item"
+  data-item-id="starry-night"
+  data-item-price="79.99"
+  data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
+  data-item-image="https://sassyroot.netlify.app/shop/notebooks/blanklined/"
+  data-item-name="The Starry Night"
   data-item-file-guid="43783dda-fb3f-4106-b63a-d861c6936e87">
-  <i class="fa-duotone fa-cart-plus"></i> Add to cart
+  Add to cart
 </button>
