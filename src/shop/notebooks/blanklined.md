@@ -1,34 +1,22 @@
 ---
-layout: layouts/base
-title: Blanklined
+layout: layouts/notebooks
+title: Blank-lined
 #badge: "Special"
 sku: blank-notebook
-short: Just a notebook
+short: This blank lined notebook is in the same style as my other journals making a nice addition to the set for free thoughts or overflow.
 
-category: notebook
+category: notebooks
 upprice: 0
 url: "blanklined"
 tags: 
   - product
-  - notebook
+  - notebooks
 
-
+guid: "43783dda-fb3f-4106-b63a-d861c6936e87"
 img: 
   photo:
-    - bb.png
-    - luscious-lips-alt.png
-  thumb: bb.png
-  alt: photo of luscious lip balm.
+    - blanklined.png
+    - blanklined-alt.png
+  thumb: blanklined.png
+  alt: photo of the blank lined notebook.
 ---
-
-43783dda-fb3f-4106-b63a-d861c6936e87
-
-<button class=" btn snipcart-add-item"
-  data-item-id="starry-night"
-  data-item-price="79.99"
-  data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
-  data-item-image="https://sassyroot.netlify.app/shop/notebooks/blanklined/"
-  data-item-name="The Starry Night"
-  data-item-file-guid="43783dda-fb3f-4106-b63a-d861c6936e87">
-  Add to cart
-</button>

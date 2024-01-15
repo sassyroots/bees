@@ -10,7 +10,7 @@ dosage: 2 teaspoons to a cup of hot water -- let infuse for at least 10 minutes 
 upprice: 0
 url: "love-potion"
 tags: 
-  #- product
+  - product
   - tea
   #- featured
   - love
@@ -24,7 +24,7 @@ herbs:
 
 img: 
   photo:
-    - mullein.png
+    - lovetea.png
     - lovetea-alt.png
   thumb: lovetea-thumb.png
   alt: photo of a cup of love tea with product packaging in the background.

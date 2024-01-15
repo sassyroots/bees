@@ -32,6 +32,6 @@ tinctures:
 notebooks:
   url: shop/notebooks
   price: 15
-notebooks-downloads:
+notebooksdl:
   url: shop/notebooks
   price: 10
