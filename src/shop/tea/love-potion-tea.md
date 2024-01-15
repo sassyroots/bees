@@ -1,7 +1,7 @@
 ---
 layout: layouts/tea
 title: Love Potion Tea
-badge: "Special"
+#badge: "Special"
 sku: lovepotion-tea
 short: this tea will both open the heart and get the love juices flowing
 
