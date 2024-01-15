@@ -12,7 +12,7 @@ tags:
   - product
   - notebooks
 
-guid: "43783dda-fb3f-4106-b63a-d861c6936e87"
+guid: "520eddd8-48a2-4dd1-aa50-be68af2d4a31"
 img: 
   photo:
     - blanklined.png
