@@ -14,7 +14,7 @@ layout: layouts/product
   data-item-weight="{{ pd.weight }}"
   data-item-url="{{ settings.site_url }}{{ pd.url}}{{ url }}"
   data-item-description="{{ short }}"
-  data-item-image="/assets/img/prod/{{ img.thumb }}"
+  data-item-image="/assets/img/shop/{{ img.thumb }}"
   data-item-name="{{ title }}">
   <i class="fa-duotone fa-cart-plus"></i> Add to cart
 </button>
