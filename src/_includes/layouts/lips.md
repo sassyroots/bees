@@ -16,7 +16,7 @@ layout: layouts/product
   data-item-width="{{ prod.lipbalm.width }}"
   data-item-url="{{ settings.site_url }}{{ prod.lipbalm.url}}{{ url }}"
   data-item-description="{{ short }}"
-  data-item-image="/assets/img/prod/{{ img.thumb }}"
+  data-item-image="/assets/img/shop/{{ img.thumb }}"
   data-item-name="{{ title }}"
   data-item-custom1-name="Flavors"
   data-item-custom1-options="{{ prod.lipbalm.vars }}">
