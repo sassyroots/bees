@@ -19,7 +19,7 @@ Paper Prints: ${{ prod.notebooks.price | plus: upprice }} | PDF Download ${{ pro
   data-item-id="{{ sku }}-pdf"
   data-item-price="{{ prod.notebooksdl.price |plus: upprice }}"
   data-item-description="{{ short }}"
-  data-item-image="/assets/img/prod/{{ img.thumb }}"
+  data-item-image="/assets/img/shop/{{ img.thumb }}"
   data-item-url="{{ settings.site_url }}{{ prod.notebooks.url}}{{ url }}"
   data-item-name="{{ title }} PDF"
   data-item-file-guid="{{ guid }}">
