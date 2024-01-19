@@ -19,6 +19,4 @@ layout: layouts/product
   data-item-image="/assets/img/shop/{{ img.thumb }}"
   data-item-name="{{ title }}"
   data-item-custom1-name="Flavors"
-  data-item-custom1-options="{{ prod.lipbalm.vars }}">
-  <i class="fa-duotone fa-cart-plus"></i> Add to cart
-</button>
+  data-item-custom1-options="{{ prod.lipbalm.vars }}"><i class="fa-duotone fa-cart-plus"></i> Add to cart</button>
