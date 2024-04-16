@@ -40,7 +40,7 @@ If you are ready to take control of your health and explore the benefits of spir
 
 <a class="btn" href="https://my.practicebetter.io/#/65184e1d240a62f287a33375/bookings">Book your appointment now</a>
 
-Intial Consultations - $145
+Intial Consultations - $200
 
 
 </div>
